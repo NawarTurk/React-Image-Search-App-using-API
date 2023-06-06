@@ -6,7 +6,7 @@ const [term, setTerm] = useState('');
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    onSubmit('cars');
+    onSubmit(term);
     
   };
 
